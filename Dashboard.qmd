@@ -1,0 +1,27 @@
+---
+title: "Dashboard"
+author: "Medha Khanal"
+format: html
+editor: visual
+---
+
+# Marketing Dashboard
+
+This dashboard shows marketing performance across channels.
+
+##  Campaign Performance
+
+```{r}
+
+library(plotly)
+
+plot_ly(
+
+x = c("Email", "Social", "SEO", "Paid Ads"),
+
+y = c(120, 200, 150, 180),
+
+type = "bar"
+
+)
+```
